@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> `onclick` Example</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background: blue;
+        }
+    </style>
+    <body>
+        <div id="box"></div>
+        <script>
+            const boxDiv = document.getElementById("box");
+
+            function handleBoxClick(e) {
+                alert("What Up Beck?");
+            }
+            boxDiv.addEventListener("click", handleBoxClick );
+        </script>
+    </body>
+</head>
+</html>
